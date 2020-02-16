@@ -1,0 +1,113 @@
+.bob {
+text-align: center;
+}
+
+.style {
+ background: white; 
+ padding: 0px 24px;
+ box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+ border-radius: 4px;
+ border: 1px;
+ width: 700px;     
+ margin: 0px auto;
+ padding-bottom: 25px; 
+}
+
+.picture {
+
+        border-radius: 50%;
+        width: 200px; 
+        height: auto;
+}
+
+@media (max-width: 900px) {
+        .bob {
+
+       width: 600px
+    }
+}
+
+
+
+body {
+ background:#ededed; 
+ color: rgb(0, 0, 0);
+ font-family:'Raleway', sans-serif ;
+ font-style: 17px;
+}
+
+
+h1 {
+color:#00a8cc;
+font-family: 'Oswald', sans-serif;
+font-size: 32px;
+font-weight: 900; 
+
+}
+
+h2 {
+        color:#00a8cc;
+font-family: 'Oswald', sans-serif; 
+        font-style: 32px;
+        font-weight: lighter;
+}
+
+h3 {
+color: black;
+        font-family: Helvetica;
+        font-style: 24px;
+        font-weight: lighter;
+
+}
+
+a {
+
+        font-family:'Raleway', sans-serif; 
+        text-decoration: none;
+        color: #00a8cc;
+        font-weight: 700;
+        font-size: 16px; 
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+.btn-blue {
+
+        background:#00a8cc;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 4px;
+}
+
+.btn-blue i:hover {
+
+        background-color: white;
+        color: black;
+}
+
+
+.list-inline {
+        list-style: none;
+        padding-left: 0px;
+}
+
+.list-inline li {
+        display: inline;
+        padding: 10px
+}
+
+.list-inline i {
+        font-size: 50px;
+        color: rgb(230 230 230);
+}
+
+.list-inline i:hover {
+        background-color: white;
+        color:#00a8cc;
+}
+
+#introduction p {
+        margin-bottom: 40px; 
+}
